@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context="com.example.drt_3axis_acc.MainActivity" >
+
+    <TextView
+        android:id="@+id/TextTimeOut"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/time_out" />
+    
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/light_info" />
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/x_info" />
+
+    <TextView
+        android:id="@+id/TextView03"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/y_info" />
+
+    <TextView
+        android:id="@+id/TextView04"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/z_info" />
+
+<!--
+ 	<Space
+       android:layout_width="match_parent"
+       android:layout_height="300dp" />
+ -->     
+<!--     <android.support.v7.widget.Space
+        android:id="@+id/space1"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp" /> -->
+
+    <Button
+        android:id="@+id/bt_data_start"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bt_data_start" />
+
+    <Button
+        android:id="@+id/bt_data_stop"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bt_data_stop" />
+
+</LinearLayout>

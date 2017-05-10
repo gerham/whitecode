@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LAA_collector</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string name="light_info">光线强度为：</string>
+    <string name="x_info">x轴上的加速度为：</string>
+    <string name="y_info">y轴上的加速度为：</string>
+    <string name="z_info">z轴上的加速度为：</string>
+    <string name = "bt_data_start">开始采集数据</string>
+    <string name = "bt_data_stop">停止</string>
+    <string name="act_light">光强阈值：</string>
+    <string name="time_out">采集时间长度：</string>
+    <string name="x"> x_val</string>
+    <string name="y"> y_val</string>
+    <string name="z"> z_val</string>
+</resources>
