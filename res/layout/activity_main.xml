@@ -6,10 +6,10 @@
     tools:context="com.example.drt_3axis_acc.MainActivity" >
 
     <TextView
-        android:id="@+id/TextTimeOut"
+        android:id="@+id/text"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="@string/time_out" />
+        android:text="@string/line" />
     
     <TextView
         android:id="@+id/TextView01"
@@ -56,5 +56,17 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="@string/bt_data_stop" />
-
+    
+<!--     <Button 
+        android:id="@+string/dump_outer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="保存至sdcard"/>
+ -->
+    <Button 
+        android:id="@+id/read_txt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bt_read"/>
+    
 </LinearLayout>

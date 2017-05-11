@@ -12,8 +12,10 @@
     <string name = "bt_data_start">开始采集数据</string>
     <string name = "bt_data_stop">停止</string>
     <string name="act_light">光强阈值：</string>
-    <string name="time_out">采集时间长度：</string>
+    <string name="line">line：</string>
     <string name="x"> x_val</string>
     <string name="y"> y_val</string>
     <string name="z"> z_val</string>
+    <string name="bt_read">读取数据</string>
+    <string name="rm_data">移除文件</string>
 </resources>
