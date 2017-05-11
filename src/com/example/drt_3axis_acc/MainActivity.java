@@ -145,12 +145,24 @@ public class MainActivity extends Activity {
 
 	@Override
 	protected void onStop() {
-		sensorManager.unregisterListener(listener);
-		wklock.release();
 		Log.e("sensor","app stop");
 		super.onStop();
 	}	
 	
+	@Override
+	protected void onDestroy() {
+		// TODO 自动生成的方法存根
+		wklock.release();
+		sensorManager.unregisterListener(listener);
+		super.onDestroy();
+	}
+	@Override
+	protected void onRestart() {
+		// TODO 自动生成的方法存根
+		super.onRestart();
+//		wklock.acquire();
+	}
+
 	private void set_button(){										// 设置按钮事件
 		final Button bt_start = (Button)findViewById(R.id.bt_data_start);
 		final Button bt_stop = (Button)findViewById(R.id.bt_data_stop);
